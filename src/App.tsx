@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Accordion from "./components/Accordion/Accordion";
 
 function App() {
     return (
@@ -34,22 +35,15 @@ function Star() {
     )
 }
 
-function Accordion() {
-    return (
-        <div>
-            <AccordionTitle />
-            <AccordionBody />
-        </div>
-    )
-}
 
-function AccordionTitle() {
+
+export function AccordionTitle() {
     return(
         <div><h3>Меню</h3></div>
     )
 }
 
-function AccordionBody() {
+export function AccordionBody() {
     return(
         <div>
             <ul>
