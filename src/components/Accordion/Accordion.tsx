@@ -1,5 +1,4 @@
 import React from "react";
-import {AccordionBody, AccordionTitle} from "../../App";
 
 function Accordion() {
     return (
@@ -8,6 +7,20 @@ function Accordion() {
             <AccordionBody/>
         </div>
     );
+}
+
+export function AccordionTitle() {
+    return (
+        <h3>Меню</h3>
+    )
+}
+
+export function AccordionBody() {
+    return <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
 }
 
 export default Accordion;
